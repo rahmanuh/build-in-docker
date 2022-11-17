@@ -1,7 +1,9 @@
 
 This setup helps to build any Linux (Yocto, OpenWRT, etc ...) in an isolated environment with docker.
-To build something inside an docker will preserve the build environment.
-Insipired by https://github.com/nxp-imx/imx-docker
+To build something inside an docker will preserve the build environment, especially when
+the host machine quite often to be upgraded.
+
+This repo is insipired by https://github.com/nxp-imx/imx-docker and https://github.com/hnakayam/imx-docker-clone.
 
 Prerequisites
 =============
