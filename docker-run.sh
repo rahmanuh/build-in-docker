@@ -21,7 +21,6 @@
 
 # run the docker image
 docker run -it --rm \
-    --volume ${HOME}:${HOME} \
-    --volume ${DOCKER_WORKDIR}:${DOCKER_WORKDIR} \
-    "${DOCKER_IMAGE_TAG}" \
-    $1
+	--volume ${DOCKER_WORKDIR}:${DOCKER_WORKDIR} \
+	"${DOCKER_IMAGE_TAG}" \
+	$1
