@@ -5,4 +5,4 @@
 # Docker
 
 DOCKER_IMAGE_TAG="yocto-build"
-DOCKER_WORKDIR="/home/rahmanu/bind_ext_hdd/build-docker-workdir"
+DOCKER_WORKDIR="${HOME}/build-docker-workdir"
