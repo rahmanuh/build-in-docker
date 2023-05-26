@@ -4,5 +4,5 @@
 
 # Docker
 
-DOCKER_IMAGE_TAG="ubuntu-18.04-build"
-DOCKER_WORKDIR="${HOME}/dev/docker-workdir"
+DOCKER_IMAGE_TAG="ubuntu-18.04-build-ext"
+DOCKER_WORKDIR="/media/ext-drive/build-docker-workdir"
