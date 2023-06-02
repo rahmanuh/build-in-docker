@@ -71,7 +71,7 @@ Build with docker
 ======================
 ```{.sh}
 .
-├── Dockerfile-Ubuntu-18.04
+├── Dockerfile-Ubuntu-20.04
 ├── README.md
 ├── docker-build.sh
 ├── docker-run.sh

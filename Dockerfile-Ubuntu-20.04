@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 # Update system and add the packages required for Yocto builds.
 # Use DEBIAN_FRONTEND=noninteractive, to avoid image build hang waiting
