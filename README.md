@@ -67,17 +67,6 @@ Restart Docker
   $ sudo systemctl restart docker
 ```
 
-Build with docker
-======================
-```{.sh}
-.
-├── Dockerfile-Ubuntu-20.04
-├── README.md
-├── docker-build.sh
-├── docker-run.sh
-├── env.sh
-```
-
 Set variables
 -------------
 

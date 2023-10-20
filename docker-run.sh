@@ -10,18 +10,18 @@
 # Left side being an absolute path on the host machine, right side being
 # an absolute path inside the container.
 #
-# The script can be run with or without parameter:
+# The script can be run with:
 #
 #   $ ./docker-run.sh
-#
-# to go into docker container prompt.
 
-# source the common variables
-. ./env.sh
+. env.sh
+
+if [ -d ${DOCKER_WORKDIR} ]; then
+        mkdir -pv ${DOCKER_WORKDIR}
+fi
 
 # run the docker image
-docker run -it --rm --privileged \
-	--volume ${HOME}:${HOME} \
-	--volume ${DOCKER_WORKDIR}:${DOCKER_WORKDIR} \
-	"${DOCKER_IMAGE_TAG}" \
-	$1
+docker run -it --rm \
+    --volume ${DOCKER_WORKDIR}:/build \
+    --workdir /build \
+    "${DOCKER_IMAGE_TAG}"

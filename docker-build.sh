@@ -5,8 +5,7 @@
 # Also, a tag is used for easy identification of the generated image.
 #
 
-# source the common variables
-. ./env.sh
+. env.sh
 
 usage() {
     echo -e "\e[3m\nUsage: $0 [path_to_Dockerfile]\e[0m\n"

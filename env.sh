@@ -4,5 +4,5 @@
 
 # Docker
 
-DOCKER_IMAGE_TAG="ubuntu-20.04-build"
+DOCKER_IMAGE_TAG="my-ubuntu-18.04"
 DOCKER_WORKDIR="${HOME}/dev/docker-workdir"
