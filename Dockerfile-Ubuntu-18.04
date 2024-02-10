@@ -24,7 +24,8 @@ RUN apt-get install -y --fix-missing gawk wget git-core diffstat unzip texinfo \
     m4 \
     libz-dev \
     bison \
-    flex libssl-dev bc mc 
+    flex libssl-dev bc mc \
+    ncdu
 
 # Set up locales
 RUN locale-gen en_US.UTF-8 && \
